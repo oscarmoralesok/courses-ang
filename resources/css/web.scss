@@ -1,0 +1,56 @@
+// Custom
+@import "custom";
+
+* {
+	font-family: 'Poppins', sans-serif;
+}
+
+*:focus {
+	outline: none;
+}
+
+
+.bg-red {
+	background-color: #ff005c;
+	color: #FFF;
+}
+
+.bg-blue {
+	background-color: #332848;
+}
+
+.ellipsis-2 {
+	.overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+.ellipsis-3 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.ellipsis-4 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+}
+
+#home {
+	background: url('http://courses.allnewglobal.test/img/web/gradient-top.svg') no-repeat center bottom;
+	background-size: 100% auto;
+}
+
+.accordion-button:focus {
+	box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+	background-color: transparent;
+}

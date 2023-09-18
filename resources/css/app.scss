@@ -1,0 +1,153 @@
+// Custom
+@import "custom";
+
+
+* {
+	font-family: 'Poppins', sans-serif;
+}
+
+*:focus {
+	outline: none;
+}
+
+.w-35 {
+	width: 35px;
+}
+
+nav.menu-nav {
+	background-color: #F5F7FA;
+	width: 100px;
+	z-index: 3;
+
+	ul.navigation li a {
+		img {
+			filter: grayscale(100%);
+			opacity: .5;
+		}
+
+		&.active, &:hover {
+			background-color: rgba(0, 119, 255, .1);
+
+			img {
+				filter: grayscale(0);
+				opacity: 1;
+			}
+		}
+	}
+}
+
+main {
+	padding-left: 100px;
+}
+
+.accordion-button {
+	&:not(.collapsed) {
+		background-color: transparent;
+		box-shadow: none;
+	}
+
+	&:focus {
+		border-color: transparent;
+		box-shadow: none;
+	}
+}
+
+
+#advanceSettings {
+	margin: 0 -1rem;
+}
+
+.menuEvent {
+	width: 300px;
+}
+
+.contentEvent {
+	padding-left: calc(300px + .75rem);
+}
+
+.select2-container--default .select2-selection--multiple {
+	background: transparent;
+	border: none;
+}
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+	border: none;
+}
+.select2-dropdown {
+	border: none;
+	box-shadow: 0px 0px 40px rgb(29 58 83 / 10%) !important;
+	border-radius: 5px !important;
+	overflow: hidden;
+}
+
+
+.pagination {
+	margin-bottom: 0;
+
+	li {
+	 	span, button {
+	 		border-radius: 8px !important;
+	 		margin: 0 5px 0 0 !important;
+	 	}
+
+	 	&.active {
+	 		span {
+	 			background-color: #5143d9;
+	 			border-color: #5143d9;
+	 		}
+	 	}
+	 }
+}
+
+.dashline {
+	border-bottom: 2px dashed #f1f3f4;
+
+	&:after {
+		background-color: #f1f3f4;
+		border-radius: 50%;
+		content: '';
+		display: block;
+		height: 30px;
+		position: absolute;
+		right: -15px;
+		top: -15px;
+		width: 30px;
+	}
+
+	&:before {
+		background-color: #f1f3f4;
+		border-radius: 50%;
+		content: '';
+		display: block;
+		height: 30px;
+		left: -15px;
+		position: absolute;
+		top: -15px;
+		width: 30px;
+	}
+}
+
+.nav-tabs .nav-link.active {
+    background-color: transparent;
+    border-bottom: 2px solid #5143d9 !important;
+    color: #5143d9;
+}
+
+.nav-tabs .nav-link {
+    color: #777;
+}
+
+
+.ck-editor__editable {
+    min-height: 200px;
+    max-height: 1200px;
+}
+
+.btadd {
+	img {
+		opacity: 0;
+	}
+
+	&:hover img {
+		opacity: 1;
+	}
+}

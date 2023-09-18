@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns:serif="http://www.serif.com/"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1080 1080"
+	 style="enable-background:new 0 0 1080 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:url(#Bubble_Solid_00000134966978795294152580000001268635319339583872_);}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
+<g id="Messenger_4_">
+	
+		<linearGradient id="Bubble_Solid_00000103982468925751973170000010347221708945362584_" gradientUnits="userSpaceOnUse" x1="1397.4138" y1="1576.994" x2="1398.4138" y2="1576.994" gradientTransform="matrix(3.059395e-13 1080 1080 -3.059395e-13 -1702613.5 -1509206.875)">
+		<stop  offset="0" style="stop-color:#00B2FF"/>
+		<stop  offset="1" style="stop-color:#006AFF"/>
+	</linearGradient>
+	
+		<path id="Bubble_Solid_3_" style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#Bubble_Solid_00000103982468925751973170000010347221708945362584_);" d="
+		M540,0C235.8,0,0,222.8,0,523.8c0,157.4,64.5,293.5,169.6,387.5c8.8,7.9,14.1,18.9,14.6,30.7l2.9,96c1,30.6,32.6,50.5,60.6,38.2
+		l107.1-47.3c9.1-4,19.2-4.8,28.8-2.2c49.2,13.6,101.7,20.8,156.3,20.8c304.2,0,540-222.8,540-523.8C1080,222.8,844.2,0,540,0L540,0
+		z"/>
+	<path id="Bolt_4_" class="st1" d="M215.8,677l158.6-251.6c25.2-40,79.3-50,117.1-21.6l126.1,94.6c11.6,8.7,27.5,8.6,39-0.1
+		L827.1,369c22.7-17.3,52.5,10,37.2,34.1L705.7,654.6c-25.2,40-79.3,50-117.1,21.6l-126.1-94.6c-11.6-8.7-27.5-8.6-39,0.1
+		L252.9,711.1C230.2,728.4,200.5,701.1,215.8,677L215.8,677z"/>
+</g>
+</svg>
